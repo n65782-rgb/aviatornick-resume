@@ -23,3 +23,11 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+export default function Home() {
+  return (
+    <main style={{ padding: "40px", color: "white" }}>
+      <h1>Nicholas Schueler</h1>
+      <p>Aviatornick · Roblox Aviator and Student Pilot</p>
+    </main>
+  );
+}Add homepage
